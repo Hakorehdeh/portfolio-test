@@ -1,0 +1,132 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Styling */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a {
+color: #333333;
+text-decoration: none;
+
+}
+p{
+    margin: 10px 0;
+}
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color: yellowgreen;
+}
+.lead{
+    font-size: 20px;}
+    .btn{
+        display:inline-block;
+        font-size: 18px;
+        color:#fff;
+        background: #333;
+        padding: 13px 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background: blueviolet;
+        color:#333;
+    }
+    .clr{
+        clear:both;
+    }
+    /* Padding */
+    .pad1{padding: 10px 0;}
+    .pad2{padding: 20px 0;}
+    .pad3{padding: 30px 0;}
+/* Navbar */
+#navbar{
+    background:#333;
+    color: #fff;
+    overflow: auto;
+
+}
+#navbar a {
+    color: #fff;
+}
+#navnar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding:20px;
+}
+#navbar ul li a:hover{
+    background: #444;
+    color:f7c08a;
+}
+/* showcase */
+#showcase{
+    background: url('../img/gee.jpg') no-repeat
+    center center/cover;
+    height: 600px;
+
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+/* Footer */
+#main-footer{
+    text-align: right;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+    
+
+}
+/* About info */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-left h1,h2,h3,p,li{
+    padding: 5px;
+    max-width: 80em;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
